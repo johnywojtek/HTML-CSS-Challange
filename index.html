@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Challenge 1</title>
+</head>
+
+<body>
+    <div class="logo-main">
+        <img src="img/logo.png" alt="logo" class="logo-main__image">
+    </div>
+    <div class="container">
+        <div class="container-left">
+
+            <form action="#" class="form">
+                <h1 class="heading">
+                    Register Form
+                </h1>
+                <div class="form__shadow">
+                    <div class="form__input-box">
+                        <input type="text" class="form__input form__input--user" placeholder="Username" required>
+                        <input type="text" class="form__input form__input--password" placeholder="Password" required>
+                        <input type="text" class="form__input form__input--password" placeholder="Confirm Password" required>
+                        <input type="text" class="form__input form__input--email" placeholder="email" required>
+                        <select class="form__input form__input--location" requierd>
+                            <option value="0">Your Location</option>
+                            <option value="1">Warszawa</option>
+                            <option value="2">Poznań</option>
+                            <option value="3">Wrocław</option>
+                        </select>
+                        <div class="form__checkbox-group">
+                            <input type="checkbox" class="form__checkbox" id="check-reg" value="checkbox" required>
+                            <label for="check-reg" class="form__label">I have read and accept the terms of use</label>
+                        </div>
+                        <input type="submit" class="btn" value="Sing up">
+                    </div>
+                </div>
+
+            </form>
+
+            <form action="#" class="form">
+                <h1 class="heading">
+                    Send Email
+                </h1>
+                <div class="form__shadow">
+                    <div class="form__input-box">
+                        <input type="text" class="form__input form__input--user" placeholder="Username" required>
+                        <input type="text" class="form__input form__input--email" placeholder="email" required>
+                        <textarea class="form__input form__input--message" placeholder="Type your message ..." cols="30" rows="10" required></textarea>
+                        <div class="form__checkbox-group">
+                            <input type="checkbox" class="form__checkbox" id="check-email" value="checkbox">
+                            <label for="check-email" class="form__label">Send a copy to my Email</label>
+                        </div>
+                        <input type="submit" class="btn" value="Send Email">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+
+        <div class="container-right">
+            <form action="#" class="form">
+                <h1 class="heading">
+                    Sing in Form
+                </h1>
+                <div class="form__shadow">
+                    <div class="form__input-box">
+                        <input type="text" class="form__input form__input--user" placeholder="Username" required>
+                        <input type="text" class="form__input form__input--password small-margin" placeholder="Password" required>
+                        <div class="form__sing-in-box">
+                            <div class="form__checkbox-group">
+                                <input type="checkbox" class="form__checkbox" id="check-sing" value="checkbox">
+                                <label for="check-sing" class="form__label">Send a copy to my Email</label>
+                            </div>
+                            <input type="submit" class="btn btn--medium" value="Sing in">
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <form action="#" class="form">
+                <h1 class="heading">
+                    Recover Form
+                </h1>
+                <div class="form__shadow">
+
+                    <div class="form__input-box">
+
+                        <input type="text" class="form__input form__input--email" placeholder="Enter your Email" required>
+
+                        <input type="text" class="form__input form__input--phone" placeholder="Enter your Phone number" required>
+
+                        <div class="form__sing-in-box">
+                            <input type="submit" class="btn btn--small" value="Send">
+                            <input type="submit" class="btn btn--small" value="Done" disabled>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <form action="#" class="form">
+                <h1 class="heading">
+                    Subscribe Form
+                </h1>
+                <div class="form__shadow">
+                    <div class="form__input-box">
+                        <input type="text" class="form__input form__input--email" placeholder="Enter your Email" required>
+                        <div class="form__sing-in-box">
+                            <input type="submit" class="btn btn--small-2" value="Subscribe">
+                            <input type="submit" class="btn btn--small-2 btn--red" value="No, Thanks">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="logo-footer">
+                <img src="img/logo-footer.png" alt="logo-footer" class="logo-footer__image">
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

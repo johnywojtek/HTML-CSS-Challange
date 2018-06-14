@@ -1,0 +1,60 @@
+
+:root{
+    --color-grey-light-1: #faf9f9;
+    --color-grey-light-2: #f4f2f2;
+    --color-grey-light-3: #f0eeee;
+    --color-grey-light-4: #ccc;
+
+    --color-grey-dark-1: #333;
+    --color-grey-dark-2: #777;
+    --color-grey-dark-3: #999;
+    
+    --color-green: #93d02b;
+    --color-green-light: #a1ec38;
+    
+    --color-red-light: rgba(255, 75, 93, 1);
+    --color-red-dark: rgba(246, 94, 111, 1);
+}
+
+
+
+$bp-large: 57.5em; // 920px   920px/16px = 68.75em
+$bp-medium: 56.25em; // 900px   900px/16px = 56.25em
+$bp-small: 37.5em; // 600px   600px/16px = 37.5em
+$bp-smallest: 31.25em; // 500px   500px/16px = 31.25em
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after,{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem=10px 10px/16px = 62.5%
+
+    @media only screen and (max-width: $bp-large){
+        font-size: 55%;
+    }
+    @media only screen and (max-width: $bp-small){
+        font-size: 42%;
+    }
+    
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: center;   
+    background-repeat: no-repeat;
+}

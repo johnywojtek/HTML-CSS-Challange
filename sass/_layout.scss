@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    @media only screen and (max-width: $bp-small){
+        flex-direction: column;
+    }
+}
+
+
+.container-left{   
+    margin: 0 5rem 3rem auto;
+    
+    display: flex;
+    flex-direction: column;
+    @media only screen and (max-width: $bp-small){
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+.container-right{   
+    margin: 0 auto 3rem 5rem;
+    
+    display: flex;
+    flex-direction: column;
+    @media only screen and (max-width: $bp-small){
+        align-items: center;
+        margin: 0;
+        align-items: center;
+    }
+}
+
