@@ -166,10 +166,6 @@ body {
     background-position: 15px;
     background-repeat: no-repeat;
     background-size: 1.7rem; }
-  .form__input--location {
-    background-position: 18px;
-    background-repeat: no-repeat;
-    background-size: 1.3rem; }
   .form__input--phone {
     background-image: url(../img/phone.png);
     background-position: 18px;
